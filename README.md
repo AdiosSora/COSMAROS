@@ -33,29 +33,27 @@ LoLのカスタムマッチの時のチーム振り分けや、役職を振り�
 | custom-1 | Custom-1 | Custom-1 |
 | custom-2 | Custom-2 | Custom-2 |
  - custom start  
- `「custom_general」チャンネルに入室している10名を自動的に2チームに振り分けると同時に役職を付与します。10名以上の場合はランダムに10名選出されます。10名以下では利用できません。`
-<details> <summary> プレビュー </summary> <div> ![custom_start](https://user-images.githubusercontent.com/11624644/76347968-d1fd7580-634a-11ea-9e5a-a597298086ee.gif)</div> </details>
+ `「custom_general」チャンネルに入室している10名を自動的に2チームに振り分けると同時に役職を付与します。10名以上の場合はランダムに10名選出されます。10名以下では利用できません。`  
+![custom_start](https://user-images.githubusercontent.com/11624644/76347968-d1fd7580-634a-11ea-9e5a-a597298086ee.gif)
  - custom suffle
  ``
-<details> <summary> プレビュー </summary> <div> ![](https://user-images.githubusercontent.com/11624644/76347614-44ba2100-634a-11ea-9239-c420f2d588a7.gif) </div> </details>
+![custom_shuffle](https://user-images.githubusercontent.com/11624644/76348957-7633ec00-634c-11ea-9a39-e7d1c59c2e93.gif)
  - custom list
  ``
-<details> <summary> プレビュー </summary> <div> ![enter image description here](https://user-images.githubusercontent.com/11624644/76347612-44218a80-634a-11ea-9134-5c2d6004e1d2.gif) </div> </details>
+![custom_list](https://user-images.githubusercontent.com/11624644/76348417-81d2e300-634b-11ea-8dd2-0f0bf7dad1a6.gif)
  - custom teamlist
  ``
-<details> <summary> プレビュー </summary> <div> ![enter image description here](https://user-images.githubusercontent.com/11624644/76347618-4552b780-634a-11ea-814d-4a38252033d9.gif) </div> </details>
+![custom_teamlist](https://user-images.githubusercontent.com/11624644/76348431-88f9f100-634b-11ea-8ed0-9cc662582943.gif)
  - custom change [数字] [数字]
  ``
-<details> <summary> プレビュー </summary> <div> ![enter image description here](https://user-images.githubusercontent.com/11624644/76347604-42f05d80-634a-11ea-9970-e5d12b2b6981.gif) </div> </details>
  - custom win [red or blue]
  ``
  - custom result
  ``
-<details> <summary> プレビュー </summary> <div> ![enter image description here](https://user-images.githubusercontent.com/11624644/76347619-45eb4e00-634a-11ea-8354-66cc59559c06.gif) </div> </details>
+![custom_win_and_result](https://user-images.githubusercontent.com/11624644/76349186-e17dbe00-634c-11ea-968f-da8eb58bb81d.gif)
  - custom end
  ``
-<details> <summary> プレビュー </summary> <div> ![enter image description here](https://user-images.githubusercontent.com/11624644/76347610-44218a80-634a-11ea-9895-a457dc3ba6f8.gif) </div> </details>
-
+![custom_end](https://user-images.githubusercontent.com/11624644/76348471-99aa6700-634b-11ea-83b1-16a93a4fd979.gif)
 ## 使用パッケージ
 * *Discord.py*  
   *  `python3 -m pip install -U discord.py`  
