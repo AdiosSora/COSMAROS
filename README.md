@@ -1,9 +1,9 @@
+<img src="https://user-images.githubusercontent.com/11624644/76447297-cfaf2000-640b-11ea-8809-88be559670a6.png" alt="SoramanNo 2">
 <h1>DiscordBot_SoramanNo.2</h1>
 使いたい機能だけ詰め込んだDiscord用BOTです。
 <h2>機能一覧</h2>
 <details>
   <summary><b>一般機能</b>(開きます)　一般的な機能や、独立している機能です。</summary>
-  <div style="width:90%; padding:2% 5%; border :solid 2px #bbbbbb;">
   <ul>
     <li><b>ping</b></li>「pong!」を返します
     <li><b>mention</b></li>送信者にメンションを送り返します
@@ -11,7 +11,6 @@
     <li><b>role add</b></li>コマンドを入力したユーザーに役職を付与します。（そらまんランドでのみ機能します）
     <li><b>そらまん</b></li>「呼んだ？」を返します
   </ul>
-  </div>
 </details>
 <details>
   <summary><b>カスタムマッチ機能</b>(開きます)　LoL用内戦機能</summary>
@@ -30,8 +29,8 @@
       <th>役職</th>
     </tr>
     <tr>
-      <th>custom_general</th>
       <th></th>
+      <th>custom_general</th>
       <th></th>
     </tr>
     <tr>
@@ -47,7 +46,7 @@
   </table>
   <ul>
     <li><b>custom start</b></li>
-    「custom_general」チャンネルに入室している10名を自動的に2チームに振り分けると同時に役職を付与します。
+    「custom_general」ボイスチャンネルに入室している10名を自動的に2チームに振り分けると同時に役職を付与します。
     10名以上の場合はランダムに10名選出されます。10名以下では利用できません。
     <details>
       <summary>プレビュー</summary>
