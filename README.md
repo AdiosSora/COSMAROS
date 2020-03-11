@@ -1,5 +1,5 @@
 <p aligen="center">
-<img width="80%" src="https://user-images.githubusercontent.com/11624644/76447297-cfaf2000-640b-11ea-8809-88be559670a6.png" alt="SoramanNo 2">
+<img width="60%" src="https://user-images.githubusercontent.com/11624644/76447297-cfaf2000-640b-11ea-8809-88be559670a6.png" alt="SoramanNo 2"><br>
 <img src="http://img.shields.io/badge/license-GNU3.0-blue.svg?style=flat" alt="SoramanNo 2">
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="SoramanNo 2">
 <h1>DiscordBot_SoramanNo.2</h1>
