@@ -1,6 +1,5 @@
 <!DOCTYPE>
 <html>
-  <link rel="stylesheet" type="text/css" href="style.css">
   <body>
   <h1>DiscordBot_Soraman</h1>
   使いたい機能だけ詰め込んだDiscord用BOTです。
@@ -19,17 +18,14 @@
   </details>
   <details>
     <summary><b>カスタムマッチ機能</b>　LoL用内戦機能</summary>
-    <div style="width:90%; padding:2% 5%; border :solid 2px #bbbbbb;">
     LoLのカスタムマッチの時のチーム振り分けや、役職を振り分けることでチャットの盗み見防止、誤ったボイスチャットへの入出を防ぐことが出来ます。<br>
     <br>
-    <div style="background :#ebe7e7;border :solid 2px #bbbbbb ">
+    <h3>前提</h3>
       この機能は前提として以下のテキスト、ボイスチャンネル。役職を必要としています。<br>
       ユーザーが設定する機能は後日追加予定です。<br>
       役職をそれぞれのテキストチャンネルとボイスチャンネルに割り当てることで、トラブルを防ぎます。<br>
-    </div>
     <br>
     <table>
-      <caption><strong>前提</strong></caption>
       <tr>
         <th>テキストチャンネル</th>
         <th>ボイスチャンネル</th>
@@ -98,7 +94,6 @@
         <img width="80%" src="https://user-images.githubusercontent.com/11624644/76348471-99aa6700-634b-11ea-83b1-16a93a4fd979.gif" alt="custom_start">
       </details>
     </ul>
-    </div>
   </details>
 <h2>使用パッケージ</h2>
 <h3>Discord.py</h3>
