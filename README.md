@@ -1,5 +1,7 @@
 <p aligen="center">
 <img width="60%" src="https://user-images.githubusercontent.com/11624644/76447297-cfaf2000-640b-11ea-8809-88be559670a6.png" alt="SoramanNo 2"><br>
+<img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
+<img src="https://img.shields.io/badge/-Discord-7289DA.svg?logo=discord&style=flat">
 <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><img src="http://img.shields.io/badge/license-GPL-blue.svg?style=flat" alt="GNU_General_Public_License"></a>
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="version">
 <h1>DiscordBot_SoramanNo.2</h1>
