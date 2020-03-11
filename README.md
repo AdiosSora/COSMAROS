@@ -5,7 +5,7 @@
 <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><img src="http://img.shields.io/badge/license-GPL-blue.svg?style=flat" alt="GNU_General_Public_License"></a>
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="version">
 </div>
-<h1>DiscordBot_SoramanNo.2</h1>#f0b686
+<h1>DiscordBot_SoramanNo.2</h1>
 使いたい機能だけ詰め込んだDiscord用BOTです。
 <h2>機能一覧</h2>
 <details>
