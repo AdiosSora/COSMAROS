@@ -1,10 +1,11 @@
-<p aligen="center">
+<div align="center">
 <img width="60%" src="https://user-images.githubusercontent.com/11624644/76447297-cfaf2000-640b-11ea-8809-88be559670a6.png" alt="SoramanNo 2"><br>
 <img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
-<img src="https://img.shields.io/badge/-Discord-7289DA.svg?logo=discord&style=flat">
+<img src="https://img.shields.io/badge/-Discord-f0b686.svg?logo=discord&style=flat">
 <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><img src="http://img.shields.io/badge/license-GPL-blue.svg?style=flat" alt="GNU_General_Public_License"></a>
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="version">
-<h1>DiscordBot_SoramanNo.2</h1>
+</div>
+<h1>DiscordBot_SoramanNo.2</h1>#f0b686
 使いたい機能だけ詰め込んだDiscord用BOTです。
 <h2>機能一覧</h2>
 <details>
@@ -102,7 +103,7 @@
   <li>Python3.7</li>
   <li>Discord.py</li>
   python3 -m pip install -U discord.py
-  <li>GoogleカレンダーAPI</li>
+  <li>GoogleCalenderAPI</li>
   python3 -m pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
   <li>yaml</li>
   python3 -m pip install pyyaml
@@ -114,4 +115,3 @@
 </ul>
 <h2>License</h2>
 "DiscordBot_SoramanNo.2" is under [GNU General Public License v3.0](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-</p>
