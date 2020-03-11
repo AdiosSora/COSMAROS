@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/11624644/76447297-cfaf2000-640b-11ea-8809-88be559670a6.png" alt="SoramanNo 2">
+<img width="80%" src="https://user-images.githubusercontent.com/11624644/76447297-cfaf2000-640b-11ea-8809-88be559670a6.png" alt="SoramanNo 2">
 <h1>DiscordBot_SoramanNo.2</h1>
 使いたい機能だけ詰め込んだDiscord用BOTです。
 <h2>機能一覧</h2>
