@@ -64,14 +64,14 @@ class MainCog(commands.Cog):
                         embed.add_field(name='#custom suffle', value='振り分けられたチームを完全にシャッフルして再度2チームに振り分けます。', inline=False)
                         embed.add_field(name='#custom list', value='チーム関係なく10名全員のリストを表示します。', inline=False)
                         embed.add_field(name='#custom teamlist', value='チーム毎のメンバーリストを表示します。', inline=False)
-                        embed.add_field(name='#custom change [数字] [数字]', value='メンバーリスト等で表示された番号を指定することでチーム間のメンバー移動が出来ます。', inline=False)
+                        embed.add_field(name='#custom change [数字] [数字]', value='チームメンバーリスト等で表示された番号を指定することでチーム間のメンバー移動が出来ます。', inline=False)
                         embed.add_field(name='#custom win [red or blue]', value='勝利したチームを指定することでチームメンバー全員に勝利数が1追加されます。', inline=False)
                         embed.add_field(name='#custom result', value='チーム振り分け機能が終了するまでに最多の勝利数を獲得したメンバーを表示します。', inline=False)
                         embed.add_field(name='#custom end', value='振り分け機能を終了します。メンバーに付けた役職の自動解除、専用テキストチャンネルのログリセット、戦績のリセットを行います。', inline=False)
                 elif page_count == 2:
                         embed=discord.Embed(title="ヘルプページ",description="カレンダー機能", color=0xffff00) #現在のヘルプページのembedを挿入
                         embed.add_field(name='#ein [予定タイトル] [予定内容] [月] [日]', value='予定をGoogleカレンダーに追加します。', inline=False)
-                embed.set_footer(text="["+str(page_count+1)+"/6]")
+                embed.set_footer(text="["+str(page_count+1)+"/3]")
                 await msg.edit(embed=embed)
 
                 if page_count == 0:
