@@ -2,7 +2,7 @@
 使いたい機能だけ詰め込んだDiscord用BOTです。
 <h2>機能一覧</h2>
 <details>
-  <summary><b>一般機能</b>　一般的な機能や、独立している機能です。</summary>
+  <summary><b>一般機能</b>(開きます)　一般的な機能や、独立している機能です。</summary>
   <div style="width:90%; padding:2% 5%; border :solid 2px #bbbbbb;">
   <ul>
     <li><b>ping</b></li>「pong!」を返します
@@ -14,7 +14,7 @@
   </div>
 </details>
 <details>
-  <summary><b>カスタムマッチ機能</b>　LoL用内戦機能</summary>
+  <summary><b>カスタムマッチ機能</b>(開きます)　LoL用内戦機能</summary>
   <br>
   LoLのカスタムマッチの時のチーム振り分けや、役職を振り分けることでチャットの盗み見防止、誤ったボイスチャットへの入出を防ぐことが出来ます。<br>
   <br>
@@ -94,13 +94,15 @@
   </ul>
 </details>
 <h2>Requirement</h2>
-<h3>Python3.7以上</h3>
-<h3>Discord.py</h3>
+<ul>
+  <li>Python3.7</li>
+  <li>Discord.py</li>
   python3 -m pip install -U discord.py
-<h3>GoogleカレンダーAPI</h3>
+  <li>GoogleカレンダーAPI</li>
   python3 -m pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-<h3>yaml</h3>
-  pip install pyyaml
+  <li>yaml</li>
+  python3 -m pip install pyyaml
+</ul>
 <h2>Auther</h2>
 <ul>
   <li>作成者：そらまん</li>
