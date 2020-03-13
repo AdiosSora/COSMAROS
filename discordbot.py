@@ -42,6 +42,5 @@ class DiscordBot(commands.Bot):
 if __name__ == '__main__':
     yaml_dict = yaml.load(open('secret.yaml').read())
     token = yaml_dict['discord_token']
-    riotkey = yaml_dict['riotapi_key']
     bot = DiscordBot(command_prefix='#') # command_prefixはコマンドの最初の文字として使うもの。 e.g. !ping
     bot.run(token) # Botのトークン
