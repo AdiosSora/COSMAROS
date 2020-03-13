@@ -7,6 +7,10 @@
 </div>
 <h1>DiscordBot_SoramanNo.2</h1>
 使いたい機能だけ詰め込んだDiscord用BOTです。
+<h2>How to Use</h2>
+以下のURLをクリックしてBOTをサーバーに追加してください。
+https://discordapp.com/api/oauth2/authorize?client_id=477820647414824961&permissions=8&scope=bot
+
 <h2>Function</h2>
 <details>
   <summary><b>一般機能</b>(開きます)　一般的な機能や、独立している機能です。</summary>
