@@ -1,5 +1,5 @@
 <div align="center">
-<img width="60%" src="https://user-images.githubusercontent.com/11624644/76647971-239f3d80-65a1-11ea-83f6-1570a7720e65.png" alt="SoramanNo 2"><br>
+<img width="60%" src="https://user-images.githubusercontent.com/11624644/76648069-52b5af00-65a1-11ea-9119-8c07fef99578.png" alt="SoramanNo 2"><br>
 <img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
 <img src="https://img.shields.io/badge/-Discord-f0b686.svg?logo=discord&style=flat">
 <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><img src="http://img.shields.io/badge/license-GPL-blue.svg?style=flat" alt="GNU_General_Public_License"></a>
