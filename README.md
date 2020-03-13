@@ -7,7 +7,7 @@
 </div>
 <h1>DiscordBot_SoramanNo.2</h1>
 使いたい機能だけ詰め込んだDiscord用BOTです。
-<h2>機能一覧</h2>
+<h2>Function</h2>
 <details>
   <summary><b>一般機能</b>(開きます)　一般的な機能や、独立している機能です。</summary>
   <ul>
