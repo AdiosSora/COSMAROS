@@ -8,6 +8,7 @@ INITIAL_COGS = [
     'cogs.maincog',
     'cogs.customcog',
     'cogs.eventcheckcog'
+    'cogs.lolcog'
 ]
 
 # クラスの定義。ClientのサブクラスであるBotクラスを継承。
