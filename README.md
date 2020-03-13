@@ -6,9 +6,9 @@
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="version">
 </div>
 <h1>DiscordBot_SoramanNo.2</h1>
-使いたい機能だけ詰め込んだDiscord用BOTです。
+そらまん2号という今の所使いたい機能だけ詰め込んだDiscord用BOTです。
 <h2>How to Use</h2>
-以下のURLをクリックしてBOTをサーバーに追加してください。
+以下のURLをクリックしてBOTをサーバーに追加してください。<br>
 https://discordapp.com/api/oauth2/authorize?client_id=477820647414824961&permissions=8&scope=bot
 
 <h2>Function</h2>
