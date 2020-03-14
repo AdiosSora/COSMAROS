@@ -102,6 +102,13 @@ https://discordapp.com/api/oauth2/authorize?client_id=477820647414824961&permiss
     </details>
   </ul>
 </details>
+<details>
+  <summary><b>League of Legends</b>(開きます)　ユーザー情報や勝率など</summary>
+  <ul>
+    <li>lol status <サモナーネーム></li>
+    サモナーの名前、レベル、現在のランク戦のティアーが表示されます。
+  </ul>
+<details>
 <h2>Requirement</h2>
 <ul>
   <li>Python3.7</li>
