@@ -108,7 +108,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=477820647414824961&permiss
     <li>lol status <サモナーネーム></li>
     サモナーの名前、レベル、現在のランク戦のティアーが表示されます。
   </ul>
-<details>
+</details>
 <h2>Requirement</h2>
 <ul>
   <li>Python3.7</li>
