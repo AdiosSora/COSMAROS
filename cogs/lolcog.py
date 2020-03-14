@@ -25,19 +25,26 @@ class MainCog(commands.Cog):
 
     @lol.command()
     async def status(self,ctx,summoner_name=None):
-        summoner = lol_watcher.summoner.by_name(my_region, summoner_name)
-        league = lol_watcher.league.by_summoner(my_region, summoner['id'])
-        embed=discord.Embed(title=summoner_name,url='https://jp.op.gg/summoner/userName='+str(summoner_name) ,description='Lv.' + str(summoner['summonerLevel']), color=0x79ffff)
-        embed.set_author(name="LoL Status", icon_url='https://raw.githubusercontent.com/AdiosSora/DiscordBot_SoramanNo.2/master/pics/lol_icon.png')
-        embed.set_thumbnail(url="https://opgg-static.akamaized.net/images/profile_icons/profileIcon"+str(summoner['profileIconId'])+".jpg")
-        if len(league)!=0:
-            win = int(league[0]['wins'])
-            losses = int(league[0]['losses'])
-            winrate = '{:.0%}'.format(Decimal(str(win/(win+losses))).quantize(Decimal('.01'), rounding=ROUND_UP))
-            embed.add_field(name="Tier", value=str(league[0]['tier'])+' '+str(league[0]['rank']), inline=True)
-            embed.add_field(name="Winrate", value=str(winrate), inline=True)
-        else:
-            embed.add_field(name="Tier", value='ランクデータがありません。', inline=False)
+        try:
+            summoner = lol_watcher.summoner.by_name(my_region, summoner_name)
+            league = lol_watcher.league.by_summoner(my_region, summoner['id'])
+            embed=discord.Embed(title=summoner_name,url='https://jp.op.gg/summoner/userName='+str(summoner_name) ,description='Lv.' + str(summoner['summonerLevel']), color=0x79ffff)
+            embed.set_author(name="LoL Status", icon_url='https://raw.githubusercontent.com/AdiosSora/DiscordBot_SoramanNo.2/master/pics/lol_icon.png')
+            embed.set_thumbnail(url="http://ddragon.leagueoflegends.com/cdn/10.5.1/img/profileicon/"+str(summoner['profileIconId'])+".png")
+            if len(league)!=0:
+                win = int(league[0]['wins'])
+                losses = int(league[0]['losses'])
+                winrate = '{:.0%}'.format(Decimal(str(win/(win+losses))).quantize(Decimal('.01'), rounding=ROUND_UP))
+                embed.add_field(name="Tier", value=str(league[0]['tier'])+' '+str(league[0]['rank']), inline=True)
+                embed.add_field(name="Winrate", value=str(winrate), inline=True)
+            else:
+                embed.add_field(name="Tier", value='ランクデータなし', inline=False)
+        except ApiError as err:
+            if err.response.status_code == 404:
+                embed=discord.Embed(title="サモナーが見つかりません。" ,description="", color=0xc93f3f)
+                embed.set_author(name="LoL Status", icon_url='https://raw.githubusercontent.com/AdiosSora/DiscordBot_SoramanNo.2/master/pics/lol_icon.png')
+            else:
+                raise
         embed.set_footer(text="#lol status " + summoner_name)
         await ctx.send(embed=embed)
 
