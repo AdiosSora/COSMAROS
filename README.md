@@ -115,6 +115,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=477820647414824961&permiss
   <ul>
     <li>lol free</li>
     今週の無料で使用出来るフリーチャンピオンを表示します。
+    <details>
       <summary>プレビュー</summary>
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76987292-486f2880-6986-11ea-8376-91684fd61bf6.gif" alt="custom_start">
     </details>
