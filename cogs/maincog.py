@@ -29,21 +29,28 @@ class MainCog(commands.Cog):
         embed.set_footer(text="[1/6]")
         msg = await ctx.send(embed=embed) #embed出力
         await msg.add_reaction("➡") #初期リアクションをつける
+
         def check(react, user):
             return user == ctx.author and (str(react) == "⬅" or str(react) == "➡") and react.message.id == msg.id
+
         while not client.is_closed(): #タイムアウトするまでリアクション受付を継続
+
             try:
                 user,react = await self.bot.wait_for('reaction_add', check=check, timeout=30.0)
+
             except asyncio.TimeoutError:
                 await msg.clear_reactions()
                 await msg.add_reaction('✖')
                 return
+
             else:
                 emoji = str(user)
+
                 if emoji == "⬅":
                     page_count-=1
                 elif emoji == "➡":
                     page_count+=1
+
                 await msg.clear_reactions()#リアクションをリセット
                 if page_count == 0:
                     embed=discord.Embed(title="ヘルプページ", description="基本コマンド", color=0xffff00) #現在のヘルプページのembedを挿入
@@ -67,29 +74,14 @@ class MainCog(commands.Cog):
                         embed.add_field(name='lol free', value='今週のフリーチャンピオンを表示します。', inline=False)
                 embed.set_footer(text="["+str(page_count+1)+"/3]")
                 await msg.edit(embed=embed)
+
                 if page_count == 0:
                     await msg.add_reaction("➡")
-                elif 0 < page_count < 2:
+                elif 0 < page_count < 5:
                     await msg.add_reaction("⬅")
                     await msg.add_reaction("➡")
                 elif page_count == 2:
                     await msg.add_reaction("⬅")
-
-    #役職コマンド
-    @commands.group()
-    async def role(self, ctx):
-        # サブコマンドが指定されていない場合、メッセージを送信する。
-        if ctx.invoked_subcommand is None:
-            await ctx.send('このコマンドにはサブコマンドが必要です。')
-
-    # roleコマンドのサブコマンド
-    # 指定したユーザーに指定した役職を付与する。
-    @role.command()
-    async def add(self, ctx):
-        role = discord.utils.get(ctx.guild.roles, name='名誉そらまんランド国民')
-        await ctx.author.add_roles(role)
-        reply = f'{ctx.author.mention} 役職を付与しました。'
-        await ctx.channel.send(reply)
 
     @commands.Cog.listener()
     async def on_message(self, message):
