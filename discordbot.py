@@ -7,7 +7,6 @@ import traceback # エラー表示のためにインポート
 INITIAL_COGS = [
     'cogs.maincog',
     'cogs.customcog',
-    'cogs.eventcheckcog',
     'cogs.lolcog'
 ]
 
