@@ -69,8 +69,9 @@ class MainCog(commands.Cog):
                         embed.add_field(name='custom result', value='チーム振り分け機能が終了するまでに最多の勝利数を獲得したメンバーを表示します。', inline=False)
                         embed.add_field(name='custom end', value='振り分け機能を終了します。メンバーに付けた役職の自動解除、専用テキストチャンネルのログリセット、戦績のリセットを行います。', inline=False)
                 elif page_count == 2:
-                        embed=discord.Embed(title="ヘルプページ",description="カレンダー機能", color=0xffff00) #現在のヘルプページのembedを挿入
-                        embed.add_field(name='ein [予定タイトル] [予定内容] [月] [日]', value='予定をGoogleカレンダーに追加します。', inline=False)
+                        embed=discord.Embed(title="ヘルプページ",description="League of Legends", color=0xffff00) #現在のヘルプページのembedを挿入
+                        embed.add_field(name='lol status [サモナーネーム]', value='サモナーの情報を表示します。', inline=False)
+                        embed.add_field(name='lol free', value='今週のフリーチャンピオンを表示します。', inline=False)
                 embed.set_footer(text="["+str(page_count+1)+"/3]")
                 await msg.edit(embed=embed)
 
