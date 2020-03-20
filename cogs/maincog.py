@@ -77,7 +77,7 @@ class MainCog(commands.Cog):
 
                 if page_count == 0:
                     await msg.add_reaction("➡")
-                elif 0 < page_count < 5:
+                elif 0 < page_count < 2:
                     await msg.add_reaction("⬅")
                     await msg.add_reaction("➡")
                 elif page_count == 2:
