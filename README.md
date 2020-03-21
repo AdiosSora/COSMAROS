@@ -127,10 +127,11 @@ https://discordapp.com/api/oauth2/authorize?client_id=477820647414824961&permiss
   <li>Python3.7</li>
   <li>Discord.py</li>
   python3 -m pip install -U discord.py
-  <li>GoogleCalenderAPI</li>
-  python3 -m pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
   <li>yaml</li>
   python3 -m pip install pyyaml
+  <li>cv2</li>
+  <li>lxml</li>
+  <li>riotwatcher</li>
 </ul>
 <h2>Auther</h2>
 <ul>
