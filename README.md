@@ -12,7 +12,7 @@ COSMAROSという今の所使いたい機能だけ詰め込んだDiscord用BOT�
 
 <h2>How to Use</h2>
 以下のURLをクリックしてBOTをサーバーに追加してください。<br>
-https://discordapp.com/api/oauth2/authorize?client_id=477820647414824961&permissions=8&scope=bot
+https://discordapp.com/oauth2/authorize?client_id=477820647414824961&scope=bot&permissions=0
 
 <h2>Function</h2>
 <details>
