@@ -5,7 +5,7 @@
 <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><img src="http://img.shields.io/badge/license-GPL-blue.svg?style=flat" alt="GNU_General_Public_License"></a>
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="version">
 </div>
-<h1>DiscordBot_SoramanNo.2</h1>
+<h1>COSMAROS</h1>
 COSMAROSという今の所使いたい機能だけ詰め込んだDiscord用BOTです。
 カスタム機能では主にLoLで内戦をする時に相手のチャットの通知が来ないよう、自動的に
 役職付与やチーム分けが出来たらいいなという考えのもと開発に至りました。
