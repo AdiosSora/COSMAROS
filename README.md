@@ -1,51 +1,51 @@
-<div align="center">
+<div align="center">.
 <img width="60%" src="https://user-images.githubusercontent.com/11624644/79453042-1227d600-8024-11ea-83ad-42f799b0eade.png" alt="COSMAROS"><br>
 <img src="https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat">
 <img src="https://img.shields.io/badge/-Discord-f0b686.svg?logo=discord&style=flat">
 <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License"><img src="http://img.shields.io/badge/license-GPL-blue.svg?style=flat" alt="GNU_General_Public_License"></a>
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="version">
-</div>
-<h1>COSMAROS</h1>
-COSMAROSという今の所使いたい機能だけ詰め込んだDiscord用BOTです。<br>
-カスタム機能では主にLoLで内戦をする時に相手のチャットの通知が来ないよう、自動的に<br>
-役職付与やチーム分けが出来たらいいなという考えのもと開発に至りました。<br>
-LoLの情報を照会する機能も追加予定
+</div>.
+<h1>COSMAROS</h1>.
+COSMAROS is a discord BOT that is packed with only the functions you want to use for now. <br>
+The custom feature is mainly used to prevent you from being notified of the other party's chat when you are fighting a civil war in LoL.
+We came up with the idea of assigning roles and dividing teams, which would be great. <br>
+LoL information inquiry function will be added
 
 <h2>How to Use</h2>
-以下のURLをクリックしてBOTをサーバーに追加してください。<br>
+Please click on the following URL to add the BOT to the server. <br>
 https://discordapp.com/oauth2/authorize?client_id=477820647414824961&scope=bot&permissions=0
 
-<h2>Function</h2>
-<details>
-  <summary><b>一般機能</b>(開きます)　一般的な機能や、独立している機能です。</summary>
+<h2>Function</h2>.
+<details>.
+  <summary><b>General Functions</b>(Open) General functions and independent functions. </summary>.
   <ul>
-    <li><b>ping</b></li>「pong!」を返します
-    <li><b>mention</b></li>送信者にメンションを送り返します
-    <li><b>help</b></li>コマンドのヘルプを表示します。リアクションの矢印を押すことでページ遷移を可能にしています。  何もリアクションせず30秒経つとリアクションの受付を停止します。
-    <li><b>role add</b></li>コマンドを入力したユーザーに役職を付与します。（そらまんランドでのみ機能します）
-    <li><b>そらまん</b></li>「呼んだ？」を返します
-  </ul>
-</details>
-<details>
-  <summary><b>カスタムマッチ機能</b>(開きます)　LoL用内戦機能</summary>
+    <LI><B>PING</B></LI> "PONG!" is returned.
+    <LI><B>mention</B></LI>Sends a recommendation back to the sender.
+    Display help for the <li><b>help</b></li> command. Page transitions are made possible by pressing the reaction arrow.  After 30 seconds without any reaction, the reaction will be stopped.
+    <li><b>role add</b></li> grants a role to the user who enters the command. (It only works in Soloman Land.)
+    <li><b>Soraman</b></li> "Did you call? to return
+  </ul>.
+</details>.
+<details>.
+  <summary><b>Custom Match Function</b>(opens) Civil War Function for LoL</summary>
   <br>
-  LoLのカスタムマッチの時のチーム振り分けや、役職を振り分けることでチャットの盗み見防止、誤ったボイスチャットへの入出を防ぐことが出来ます。<br>
+  You can prevent eavesdropping on the chat by assigning teams and positions during custom LoL matches, and prevent accidental entry and exit of voice chats. <br>
   <br>
-  <h3>前提</h3>
-    この機能は前提として以下のテキスト、ボイスチャンネル。役職を必要としています。<br>
-    ユーザーが設定する機能は後日追加予定です。<br>
-    役職をそれぞれのテキストチャンネルとボイスチャンネルに割り当てることで、トラブルを防ぎます。<br>
+  <h3>Supposition</h3>.
+    This feature is premised on the following text, voice channels. Position needed. <br>
+    More user-configurable features will be added at a later date. <br>
+    Assigning roles to their own text and voice channels will save you trouble. <br>
   <br>
   <table>
     <tr>
-      <th>テキストチャンネル</th>
-      <th>ボイスチャンネル</th>
-      <th>役職</th>
+      <th>Text channel</th>.
+      <th>Voice Channel</th>.
+      <th>Position</th>.
     </tr>
     <tr>
-      <th></th>
-      <th>custom_general</th>
-      <th></th>
+      <th></th>.
+      <th>custom_custom_general</th>
+      <th></th>.
     </tr>
     <tr>
       <th>custom-1</th>
@@ -57,90 +57,81 @@ https://discordapp.com/oauth2/authorize?client_id=477820647414824961&scope=bot&p
       <th>Custom-2</th>
       <th>Custom-2</th>
     </tr>
-  </table>
+  </table>.
   <ul>
     <li><b>custom start</b></li>
-    「custom_general」ボイスチャンネルに入室している10名を自動的に2チームに振り分けると同時に役職を付与します。
-    10名以上の場合はランダムに10名選出されます。10名以下では利用できません。
-    <details>
-      <summary>プレビュー</summary>
+    10 people in the "custom_general" voice channel will be automatically assigned to 2 teams and given a position at the same time.
+    If there are more than 10 people, 10 people will be selected at random; no more than 10 people will be available.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76347968-d1fd7580-634a-11ea-9e5a-a597298086ee.gif" alt="custom_start">
-    </details>
+    </details>.
     <li><b>custom suffle</b></li>
-    振り分けられたチームを完全にシャッフルして再度2チームに振り分けます。
-    <details>
-      <summary>プレビュー</summary>
+    Completely shuffle the assigned teams and assign them to the two teams again.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76348957-7633ec00-634c-11ea-9a39-e7d1c59c2e93.gif" alt="custom_start">
-    </details>
-    <li><b>custom list</b></li>
-    チーム関係なく10名全員のリストを表示します。
-    <details>
-      <summary>プレビュー</summary>
+    </details>.
+    <li><b>custom list</b></li>.
+    View a list of all 10 members, regardless of team.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76348417-81d2e300-634b-11ea-8dd2-0f0bf7dad1a6.gif" alt="custom_start">
-    </details>
+    </details>.
     <li><b>custom teamlist</b></li>
-    チーム毎のメンバーリストを表示します。
-    <details>
-      <summary>プレビュー</summary>
+    Displays a list of members by team.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76348431-88f9f100-634b-11ea-8ed0-9cc662582943.gif" alt="custom_start">
-    </details>
-    <li><b>custom change [数字] [数字]</b></li>
-    チームメンバーリスト等で表示された番号を指定することでチーム間のメンバー移動が出来ます。
-    <details>
-      <summary>プレビュー</summary>
+    </details>.
+    <li><b>custom change [number] [number]</b></li>
+    You can move members between teams by specifying the number displayed in the team member list.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76408908-09166a00-63d1-11ea-9099-c6e9c43c51d4.gif" alt="custom_start">
-    </details>
+    </details>.
     <li><b>custom win [red or blue]</b></li>
-    勝利したチームを指定することでチームメンバー全員に勝利数が1追加されます。
+    By specifying the winning team, all team members will receive an additional 1 win.
     <li><b>custom result</b></li>
-    チーム振り分け機能が終了するまでに最多の勝利数を獲得したメンバーを表示します。
-    <details>
-      <summary>プレビュー</summary>
+    Shows the members with the most wins by the end of the team allocation function.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76348957-7633ec00-634c-11ea-9a39-e7d1c59c2e93.gif" alt="custom_start">
-    </details>
+    </details>.
     <li><b>custom end</b></li>
-    振り分け機能を終了します。メンバーに付けた役職の自動解除、専用テキストチャンネルのログリセット、戦績のリセットを行います。
-    <details>
-      <summary>プレビュー</summary>
+    Ends the allocation function. Auto-removal of the position assigned to the member, log reset of the dedicated text channel, and reset of the battle record.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76348471-99aa6700-634b-11ea-83b1-16a93a4fd979.gif" alt="custom_start">
-    </details>
-  </ul>
-</details>
-<details>
-  <summary><b>League of Legends</b>(開きます)　ユーザー情報や勝率など</summary>
+    </details>.
+  </ul>.
+</details>.
+<details>.
+  <summary><b>League of Legends</b>(opens) User information and win percentages</summary>.
   <ul>
-    <li>lol status <サモナーネーム></li>
-    サモナーの名前、レベル、現在のランク戦のティアーが表示されます。
-    <details>
-      <summary>プレビュー</summary>
+    <li>lol status <summoner name></li>
+    The summoner's name, level, and current ranked battle tier are displayed.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76987294-49a05580-6986-11ea-9dc6-68e75b2a248d.gif" alt="custom_start">
-    </details>
-  </ul>
+    </details>.
+  </ul>.
   <ul>
     <li>lol free</li>
-    今週の無料で使用出来るフリーチャンピオンを表示します。
-    <details>
-      <summary>プレビュー</summary>
+    View the free champions available for free this week.
+    <details>.
+      <summary>Preview</summary>.
       <img width="80%" src="https://user-images.githubusercontent.com/11624644/76987292-486f2880-6986-11ea-8376-91684fd61bf6.gif" alt="custom_start">
-    </details>
-  </ul>
-</details>
+    </details>.
+  </ul>.
+</details>.
 
 <h2>Requirement</h2>
 <ul>
   <li>Python3.7</li>
   <li>Discord.py</li>
   python3 -m pip install -U discord.py
-  <li>yaml</li>
-  python3 -m pip install pyyaml
-  <li>cv2</li>
-  <li>lxml</li>
-  <li>riotwatcher</li>
-</ul>
-<h2>Auther</h2>
-<ul>
-  <li>作成者：そらまん</li>
-  <li>Twitter:@adiossora</li>
-</ul>
-<h2>License</h2>
-"DiscordBot_SoramanNo.2" is under [GNU General Public License v3.0](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+  <li>yaml</li>.
+  python3 -m pip install py
+
+Translated with www.DeepL.com/Translator (free version)
