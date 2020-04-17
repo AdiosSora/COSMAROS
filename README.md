@@ -13,7 +13,7 @@ I also wanted to be able to refer to the LoL information from Discord. <br>
 
 
 <h2>How to Use</h2>
-以下のURLをクリックしてBOTをサーバーに追加してください。<br>
+Please click on the following URL to add the BOT to the server.<br>
 https://discordapp.com/oauth2/authorize?client_id=477820647414824961&scope=bot&permissions=0
 
 <h2>Function</h2>
