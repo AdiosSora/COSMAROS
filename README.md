@@ -6,9 +6,10 @@
 <img src="https://img.shields.io/badge/version-v0.9.0-ff7964.svg" alt="version">
 </div>
 <h1>COSMAROS</h1>
-COSMAROSという今の所使いたい機能だけ詰め込んだDiscord用BOTです。
-カスタム機能では主にLoLで内戦をする時に相手のチャットの通知が来ないよう、自動的に
-役職付与やチーム分けが出来たらいいなという考えのもと開発に至りました。
+COSMAROSという今の所使いたい機能だけ詰め込んだDiscord用BOTです。<br>
+カスタム機能では主にLoLで内戦をする時に相手のチャットの通知が来ないよう、自動的に<br>
+役職付与やチーム分けが出来たらいいなという考えのもと開発に至りました。<br>
+LoLの情報を照会する機能も追加予定
 
 <h2>How to Use</h2>
 以下のURLをクリックしてBOTをサーバーに追加してください。<br>
